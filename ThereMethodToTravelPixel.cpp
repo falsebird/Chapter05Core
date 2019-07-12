@@ -97,8 +97,7 @@ void testReudeceColor() {
 	waitKey(0);
 }
 
-int main() {
-	testReudeceColor();
-
-	return 0;
-}
+//int main() {
+//	testReudeceColor();
+//	return 0;
+//}
