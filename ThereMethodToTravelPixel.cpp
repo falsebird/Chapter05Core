@@ -59,8 +59,7 @@ void colorReduce3(Mat& inputImage, Mat& outputImage,int div ) {
 
 	}
 }
-
-int main() {
+void testReudeceColor() {
 	//【1】创建原始图并显示
 	Mat srcImage = imread("img/1.jpg");
 	imshow("原始图像", srcImage);
@@ -96,6 +95,10 @@ int main() {
 	imshow("效果图2", dstImage2);
 	imshow("效果图3", dstImage3);
 	waitKey(0);
+}
+
+int main() {
+	testReudeceColor();
 
 	return 0;
 }
