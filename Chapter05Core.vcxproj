@@ -124,6 +124,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="chanalSplit.cpp" />
     <ClCompile Include="firstStgeRemixImg.cpp" />
     <ClCompile Include="ThereMethodToTravelPixel.cpp" />
   </ItemGroup>
