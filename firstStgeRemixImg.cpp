@@ -71,10 +71,10 @@ bool ROI_LinearBlendig() {
 	namedWindow("<4>线性混合示例窗口【效果图】", 1);
 	imshow("<4>线性混合示例窗口【效果图】", srcImage4);
 }
-int main() {
-	//ROI_Addimage();
-	//LinerBlening();
-	ROI_LinearBlendig();
-	waitKey(0);
-	return 0;
-}
+//int main() {
+//	//ROI_Addimage();
+//	//LinerBlening();
+//	ROI_LinearBlendig();
+//	waitKey(0);
+//	return 0;
+//}
