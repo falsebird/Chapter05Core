@@ -122,13 +122,13 @@ bool RedChannelBleding() {
 	return true;
 }
 
-
-int main() {
-	
-	BlueChannelBleding();
-	GreenChannelBleding();
-	RedChannelBleding();
-	waitKey(0);
-	return 0;
-
-}
+//
+//int main() {
+//	
+//	BlueChannelBleding();
+//	GreenChannelBleding();
+//	RedChannelBleding();
+//	waitKey(0);
+//	return 0;
+//
+//}
