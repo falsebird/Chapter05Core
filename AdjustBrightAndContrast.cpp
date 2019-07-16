@@ -27,14 +27,12 @@ void ContrastAndBright(int, void*) {
 	imshow(WINDOS_NAME2, g_dstImage);
 }
 
-
-int main() {
-
+bool adjustBrightAndContrast() {
 	g_srcImage = imread("1.jpg");
 	g_dstImage = imread("1.jpg");
 	//imshow(WINDOS_NAME1, g_srcImage);
 	//waitKey(0);
-	if(g_srcImage.empty()) {
+	if (g_srcImage.empty()) {
 		cout << "读取图片错误！ " << endl;
 		return false;
 	}
@@ -48,5 +46,10 @@ int main() {
 	ContrastAndBright(g_nContrastValue, 0);
 	cout << endl << "\t运行成功，请调整滚动条观察图像效果\n\n" << "\t按下'q'键时，程序退出\n";
 	while (char(waitKey(1)) != 'q') {}
-	return 0;
 }
+
+//int main() {
+//
+//	adjustBrightAndContrast();
+//	return 0;
+//}
