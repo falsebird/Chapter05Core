@@ -64,8 +64,8 @@ bool _Dft() {
 
 }
 
-int  main() {
-	_Dft();
-	
-	return 0;
-}
+//int  main() {
+//	_Dft();
+//	
+//	return 0;
+//}
